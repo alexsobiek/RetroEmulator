@@ -10,9 +10,17 @@ import java.awt.*;
 
 public class HelloWorld {
     public static void main(String[] args) {
-        Emulator emulator = new Emulator();                                     // Call a new instance of the Emulator
-        emulator.printString("HELLO WORLD", 0, 0, Color.BLUE, Color.BLACK);     // Prints HELLO WORLD in blue
+        // Call a new instance of the Emulator
+        Emulator emulator = new Emulator();
+        // Prints HELLO WORLD in blue
+        emulator.printString("HELLO WORLD", 0, 0, Color.BLUE, Color.BLACK);
     }
 }
 ```
 
+### Example
+A more advanced Hello World example is included in the [examples pacakge](https://github.com/alexsobiek/RetroEmulator/tree/main/src/main/java/com/alexsobiek/retroemulator/examples)
+
+<p align="center">
+  <img alt="Hello World" src="https://raw.githubusercontent.com/alexsobiek/RetroEmulator/main/docs/helloworld.png">
+</p>
