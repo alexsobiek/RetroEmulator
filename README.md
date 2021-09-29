@@ -14,6 +14,8 @@ public class HelloWorld {
         Emulator emulator = new Emulator();
         // Prints HELLO WORLD in blue
         emulator.printString("HELLO WORLD", 0, 0, Color.BLUE, Color.BLACK);
+        // Prints V in the bottom left corner
+        emulator.printChar('V', 24, 0);
     }
 }
 ```
