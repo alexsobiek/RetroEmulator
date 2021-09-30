@@ -21,7 +21,7 @@ public class HelloWorld {
 ```
 
 ### Example
-A more advanced Hello World example is included in the [examples pacakge](https://github.com/alexsobiek/RetroEmulator/tree/main/src/main/java/com/alexsobiek/retroemulator/examples)
+A more advanced Hello World example is included in the [examples package](https://github.com/alexsobiek/RetroEmulator/tree/main/src/main/java/com/alexsobiek/retroemulator/examples)
 
 <p align="center">
   <img alt="Hello World" src="https://raw.githubusercontent.com/alexsobiek/RetroEmulator/main/docs/helloworld.png">
