@@ -23,6 +23,7 @@ public class Window extends JPanel {
         frame.add(this);
         frame.setBackground(Color.BLACK);
         frame.setVisible(true);
+        frame.setResizable(false);
     }
 
     @Override
