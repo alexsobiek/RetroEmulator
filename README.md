@@ -14,12 +14,14 @@ public class HelloWorld {
         Emulator emulator = new Emulator();
         // Prints HELLO WORLD in blue
         emulator.printString("HELLO WORLD", 0, 0, Color.BLUE, Color.BLACK);
+        // Prints V in the bottom left corner
+        emulator.printChar('V', 24, 0);
     }
 }
 ```
 
 ### Example
-A more advanced Hello World example is included in the [examples pacakge](https://github.com/alexsobiek/RetroEmulator/tree/main/src/main/java/com/alexsobiek/retroemulator/examples)
+A more advanced Hello World example is included in the [examples package](https://github.com/alexsobiek/RetroEmulator/tree/main/src/main/java/com/alexsobiek/retroemulator/examples)
 
 <p align="center">
   <img alt="Hello World" src="https://raw.githubusercontent.com/alexsobiek/RetroEmulator/main/docs/helloworld.png">
