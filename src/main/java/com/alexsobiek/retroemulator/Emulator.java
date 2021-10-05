@@ -1,4 +1,4 @@
-package com.alexsobiek.retroemulator.emulator;
+package com.alexsobiek.retroemulator;
 
 import com.alexsobiek.retroemulator.graphics.CharSet;
 import com.alexsobiek.retroemulator.graphics.Window;

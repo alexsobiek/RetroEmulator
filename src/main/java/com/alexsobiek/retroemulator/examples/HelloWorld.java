@@ -1,6 +1,6 @@
 package com.alexsobiek.retroemulator.examples;
 
-import com.alexsobiek.retroemulator.emulator.Emulator;
+import com.alexsobiek.retroemulator.Emulator;
 
 import java.awt.*;
 
@@ -16,7 +16,10 @@ public class HelloWorld {
         emulator.printString("| LOYOLA UNIVERSITY |", 12, 10, Color.BLACK, Color.LIGHT_GRAY);
         emulator.printString("+-------------------+", 13, 10, Color.BLACK, Color.LIGHT_GRAY);
 
+
+
         emulator.printString("HELLO", 24,0);
         emulator.printString("WORLD", 24,35);
+        emulator.printChar('V', 24, 0);
     }
 }

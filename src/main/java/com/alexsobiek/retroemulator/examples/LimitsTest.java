@@ -1,6 +1,6 @@
 package com.alexsobiek.retroemulator.examples;
 
-import com.alexsobiek.retroemulator.emulator.Emulator;
+import com.alexsobiek.retroemulator.Emulator;
 
 public class LimitsTest {
     public static void main(String[] args) {
